@@ -33,7 +33,7 @@ span {
 /* ==============Banner section ========== */
 
 .banner {
-  width: 1920px;
+  width: 1900px;
   height: 1020px;
   background-image: url(./images/bg.png);
   background-size: cover;
@@ -92,12 +92,13 @@ span {
   line-height: auto;
 }
 .banner .banner_body .banner_text .name_text {
-  width: 592px;
-  height: 105px;
-  font-size: 50px;
+  width: 660px;
+  height: 85px;
+  font-size: 56px;
   font-weight: 700;
   line-height: auto;
-  margin: 54px 0px 0px 10px;
+  margin: 54px 0px 0px 0px;
+  /* border: 2px solid red; */
 }
 .banner .banner_body .banner_text .bio_text {
   font-size: 25px;
@@ -121,8 +122,8 @@ span {
   padding: 10px;
 }
 .banner .banner_body .picture img {
-  width: 783px;
-  height: 860px;
+  width: 820px;
+  height: 913px;
   margin-top: 50px;
   /* border: 5px solid red; */
 }
@@ -133,13 +134,13 @@ span {
   height: 1000px;
   width: 1900px;
   color: black;
-   margin-top: 100px;
+  margin-top: 100px;
+  position: relative;
 }
-.Card_section .card_container{
-    height: 900px;
-    width: 1520px;
-    margin: 0px 200px 0px 200px;
-
+.Card_section .card_container {
+  height: 900px;
+  width: 1520px;
+  margin: 0px 200px 0px 200px;
 }
 
 .Card_section .card_container .section_head h1 {
@@ -151,7 +152,7 @@ span {
   opacity: 70%;
   text-align: center;
 }
-.Card_section  .cards {
+.Card_section .cards {
   width: 1520px;
   height: 1180px;
   /* display: grid;
@@ -161,11 +162,11 @@ span {
   justify-content: space-between;
   margin-top: 80px;
 }
-.Card_section  .cards .card img{
-    width: 450px;
-    height: 230px;
+.Card_section .cards .card img {
+  width: 450px;
+  height: 230px;
 }
-.Card_section  .cards .card {
+.Card_section .cards .card {
   height: 540px;
   width: 450px;
   border: 1px solid #f3eeeebb;
@@ -173,19 +174,19 @@ span {
   overflow: hidden;
 }
 
-.Card_section  .cards .card .card_body {
+.Card_section .cards .card .card_body {
   /* margin-top: 40px; */
   padding: 40px 10px 20px 20px;
 }
 
-.Card_section  .cards .card .card_body .head_text {
+.Card_section .cards .card .card_body .head_text {
   font-size: 18px;
   font-weight: 600;
   line-height: 30px;
   margin-bottom: 10px;
 }
 
-.Card_section  .cards .card .card_body .para_text {
+.Card_section .cards .card .card_body .para_text {
   font-size: 15px;
   opacity: 70%;
   line-height: 22px;
@@ -207,17 +208,16 @@ span {
   border-radius: 10px;
   background-color: rgba(196, 194, 192, 0.5);
   color: black;
-  
+
   text-align: center;
-  
 }
 
 .sub_btn .frame_text {
-   font-size: 16px;
+  font-size: 16px;
   font-weight: 600;
   height: 15px;
   width: 50px;
-  margin: 5px 5px 5px 5px ;
+  margin: 5px 5px 5px 5px;
 }
 
 .btns {
@@ -244,28 +244,167 @@ span {
   background: transparent;
   background-color: white;
   border: 1px solid #f3eeee;
-   font-size: 16px;
+  font-size: 16px;
   font-weight: 500;
- 
 }
-.btns .btn2 a{
-     color: black;
+.btns .btn2 a {
+  color: black;
 }
-.Card_section .card_container .view{
-    width: 1520px;
-    text-align: center;
+.Card_section .card_container .view {
+  width: 1520px;
+  text-align: center;
 }
-.Card_section .card_container .view button{
-height: 50px;
+.Card_section .card_container .view button {
+  height: 50px;
   width: 180px;
   margin: 50px 0 0 0;
   border-radius: 15px;
   background: transparent;
   border: 1px solid #cacaca;
-   font-size: 16px;
+  font-size: 16px;
   font-weight: 600;
-  
 }
-.Card_section .card_container .view button a{
-     color: black;
+.Card_section .card_container .view button a {
+  color: black;
+}
+
+/* ========= Get in Touch =========== */
+.get_in_touch {
+  height: 800px;
+  width: 1900px;
+  justify-content: center;
+  position: relative;
+  margin-top: 550px;
+}
+.touch_container {
+  height: 1000px;
+  width: 1500px;
+  margin: 30px 200px 30px 200px;
+  /* border: 2px solid red; */
+  /* justify-content: center;
+        align-items: center; */
+}
+
+.touch_container .touch_container_head .touch_head h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.touch_container .touch_container_head .touch_para {
+  opacity: 70%;
+  text-align: center;
+  font-size: 20px;
+}
+.touch_container_body {
+  width: 1500px;
+  /* border: 2px solid red; */
+  margin-top: 50px;
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+  /* gap: 10px; */
+}
+.form_section {
+  width: 520px;
+  height: 450px;
+  background-color: white;
+  border-radius: 20px;
+  padding: 10px 10px 10px 10px;
+}
+.form_section form {
+  width: 300px;
+  padding: 20px;
+}
+.form_section form input {
+  border: none;
+  border-radius: 20px;
+  padding: 0 0 0 15px;
+  width: 450px;
+  height: 40px;
+  background-color: #f5f5f5;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+button {
+  width: 450px;
+  height: 50px;
+  background-color: black;
+  border-radius: 10px;
+}
+button a {
+  color: white;
+  text-decoration: none;
+}
+.connect_section {
+  height: 600px;
+  width: 500px;
+}
+
+.connect {
+  width: 450px;
+  height: 250px;
+  padding: 30px 30px;
+  background-color: white;
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+.connect h3 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+.connect p {
+  width: 450px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px;
+  margin-bottom: 35px;
+
+  color: #868484;
+}
+.connect h4 {
+  font-size: 16px;
+  font-weight: 400;
+  color: #868484;
+  margin-bottom: 17px;
+}
+.connect .mail {
+  color: black;
+  font-size: 16px;
+  font-weight: 400;
+}
+.follow_me {
+  width: 450px;
+  height: 170px;
+  padding: 30px 30px;
+  background-color: white;
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+.follow_me h2 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+.follow_me .mini_boxes {
+  width: 450px;
+  height: 100px;
+  /* border: 1px solid red; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.follow_me .mini_boxes .mini_box {
+  width: 190px;
+  height: 40px;
+  text-align: left;
+  align-items: center;
+  display: flex;
+  border: 1px solid #dbd4d4;
+  font-size: 18px;
+  border-radius: 10px;
+  padding-left: 10px;
+  gap: 10px;
 }

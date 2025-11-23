@@ -3,16 +3,234 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="./style.css" /></head
-  ><link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
-    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
-    crossorigin="anonymous"
-    referrerpolicy="no-referrer"
-  />
-  <body>
+    <title>Demo Website</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      .about {
+      width: 1500;
+      height: 1200px;
+      margin: 50px 200px 0 200px ;
+      justify-content: center;
+      text-align: center;
+      
+      }
+
+      .about .about_head h3{
+        font-size: 25px;
+        font-weight: 600;
+        margin-bottom: 20px;
+      }
+     .about .about_head p{
+      font-size: 16px;
+      font-weight: 400;
+     }  
+     .about_body{
+      width: 1500px;
+      height: 1000px;
+      margin-top: 50px;
+      display: flex;
+      gap: 100px;
+      /* border: 2px solid red; */
+      justify-content: center;
+     }
+       .about_body .know{
+        height: 800px;
+        width: 500px;
+        text-align: left;
+       }
+       .about_body .know h3{
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 30px;
+       }
+       .about_body .know p{
+        color: #0a01027a;
+        font-size: 16px;
+        line-height: 28px;
+        margin-bottom: 40px;
+       }
+
+       .skills{
+        width: 650px;
+        height: 800px;
+        /* border: 2px solid red; */
+        text-align: left;
+       }
+      
+       .boxes{
+        width: 650px;
+        height: 400px;
+         /* border: 2px solid red; */
+         display: flex;
+         flex-wrap: wrap;
+        gap: 65px;
+        
+       }
+       .box{
+        height: 140px;
+        width: 100px;
+        justify-content: center;
+        text-align: center;
+        gap: 10px;
+         /* border: 2px solid red; */
+       }
+     
+    </style>
+  </head>
+
+  <body style="background-color: #d7d7d7">
+    <div class="about">
+      
+      <div class="about_head">
+        <h3>ABOUT ME</h3>      
+        <p>Building the future of web applications, one line of code at a time</p>
+      </div>
+
+      <div class="about_body">
+        <div class="know">
+          <h3>Get to know me!</h3>
+          
+          <p >
+            I'm a
+            <a href="index.html" style="text-decoration: none; color: #0a01027a"
+              ><b>Full-stack Web Developer</b></a
+            >
+            building and managing the Front-end and back-end of Websites and Web
+            Applications that leads to the success of the overall product. Check
+            out some of my work in the
+            <a href="projects" style="text-decoration: none; color: #0a01027a">
+              <b>Projects</b></a
+            >
+            section. <br />
+
+            I also like sharing content related to the stuff that I have learned
+            over the years in Web Development so it can help other people of the
+            Dev Community. Feel free to Connect or Follow me on my
+            <a href="" style="text-decoration: none; color: #0a01027a"
+              ><b>Linkedin</b></a
+            >
+            and
+            <a href="" style="text-decoration: none; color: #0a01027a"
+              ><b>Instagram</b></a
+            >
+            where I post useful content related to Web Development and
+            Programming I'm open to Job opportunities where I can contribute,
+            learn and grow. If you have a good opportunity that matches my
+            skills and experience then don't hesitate to contact me.
+          
+          </p>
+          <button><a href="#" style="color: white;">CONTACT</a></button>
+        </div>
+        <div class="skills">
+          <h3 style="font-size: 25px; margin-bottom: 20px; text-align: center;" >SKILLS</h3>
+          <h3 style="font-size: 20px; margin-bottom: 30px; font-weight: 500;" >USING NOW:</h3>
+          <div class="boxes">
+            <div class="box">
+              <div class="icon">
+                <img src="./images/html_pic.svg" alt="">
+              </div>
+              <p style="margin-top: 15px;">HTML5</p>
+            </div>
+            <div class="box">
+              <div class="icon">
+                <img src="./images/css_pic.svg" alt="">
+              </div>
+              <p style="margin-top: 15px;">CSS3</p>
+            </div>
+            <div class="box">
+              <div class="icon">
+                <img src="./images/figma.svg" alt="">
+              </div>
+              <p style="margin-top: 15px;">FIGMA</p>
+            </div>
+            <div class="box">
+              <div class="icon">
+                <img src="./images/bootstrap.svg" alt="">
+              </div>
+              <p style="margin-top: 15px;">BOOTSTRAP</p>
+            </div>
+            <div class="box">
+              <div class="icon">
+                <img style="margin-top: 25px;" height="70px" width="110px" src="./images/tailwind.png" alt="">
+              </div>
+              <p style="margin-top: 15px;">TAILWIND</p>
+            </div>
+            <div class="box">
+              <div class="icon">
+                <img src="./images/git_icon.svg" alt="">
+              </div>
+              <p style="margin-top: 15px;">GIT</p>
+            </div>
+            <div class="box">
+              <div class="icon">
+                <img src="./images/js.svg" alt="">
+              </div>
+              <p style="margin-top: 15px;">HTML5</p>
+            </div>
+            <div class="box">
+              <div class="icon">
+                <img src="./images/react.svg" alt="">
+              </div>
+              <p style="margin-top: 15px;">REACT</p>
+            </div>
+          </div>
+           <h3 style="font-size: 20px; margin-bottom: 30px; margin-top: 50px; font-weight: 500;" >LEARNING:</h3>
+          <div class="boxes">
+            <div class="box">
+              <div class="icon">
+                <img src="./images/node.svg" alt="">
+              </div>
+              <p style="margin-top: 15px;">NODEJS</p>
+            </div>
+            <div class="box">
+              <div class="icon">
+                <img src="./images/sql.svg" alt="">
+              </div>
+              <p style="margin-top: 15px;">MySQL</p>
+            </div>
+            <div class="box">
+              <div class="icon">
+                <img src="./images/mongo.svg" alt="">
+              </div>
+              <p style="margin-top: 15px;">MPNGPDB</p>
+            </div>
+            <div class="box">
+              <div class="icon">
+                <img src="./images/type.svg" alt="">
+              </div>
+              <p style="margin-top: 15px;">TYPESCRIPT</p>
+            </div>
+          
+          </div>
+          <!-- <br />
+          <div class="boxs">
+            <div class="box" style="color: #0a01027a">HTML</div>
+            <div class="box" style="color: #0a01027a">CSS</div>
+            <div class="box" style="color: #0a01027a">BootStrap</div>
+            <div class="box" style="color: #0a01027a">JavaScript</div>
+            <div class="box" style="color: #0a01027a">React</div>
+            <div class="box" style="color: #0a01027a">GIT</div>
+            <div class="box" style="color: #0a01027a">Github</div>
+            <div class="box" style="width: 200px; color: #0a01027a">
+              Responsive Design
+            </div> -->
+          </div>
+        </div>
+      </div>
     
   </body>
 </html>
