@@ -127,7 +127,78 @@ span {
   margin-top: 50px;
   /* border: 5px solid red; */
 }
+/* ===============About Me ================= */
+.about {
+  width: 1500;
+  height: 800px;
+  margin: 200px 200px 0 200px;
+  justify-content: center;
+  text-align: center;
+}
 
+.about .about_head h3 {
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.about .about_head p {
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 70%;
+}
+.about_body {
+  width: 1500px;
+  height: 1000px;
+  margin-top: 50px;
+  display: flex;
+  gap: 100px;
+  /* border: 2px solid red; */
+  justify-content: center;
+}
+.about .about_body .know {
+  height: 800px;
+  width: 500px;
+  text-align: left;
+}
+.about .about_body .know h3 {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+.about .about_body .know p {
+  color: #0a01027a;
+  font-size: 16px;
+  line-height: 28px;
+  margin-bottom: 40px;
+}
+
+.skills {
+  width: 650px;
+  height: 800px;
+  /* border: 2px solid red; */
+  text-align: left;
+}
+
+.boxes {
+  width: 650px;
+  height: 300px;
+  /* border: 2px solid red; */
+  display: flex;
+  flex-wrap: wrap;
+  gap: 45px;
+}
+.boxes .box {
+  height: 140px;
+  width: 100px;
+  justify-content: center;
+  text-align: center;
+  gap: 10px;
+
+  /* border: 2px solid red; */
+}
+.boxes .box .icon img {
+  height: 80px;
+}
 /* ======================== card section ========== */
 
 .Card_section {
@@ -143,9 +214,11 @@ span {
   margin: 0px 200px 0px 200px;
 }
 
-.Card_section .card_container .section_head h1 {
+.Card_section .card_container .section_head h3 {
+  font-size: 25px;
+  font-weight: 600;
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
 }
 
 .Card_section .card_container .section_head .head_para {
@@ -285,7 +358,9 @@ span {
         align-items: center; */
 }
 
-.touch_container .touch_container_head .touch_head h1 {
+.touch_container .touch_container_head .touch_head h3 {
+  font-size: 25px;
+  font-weight: 600;
   text-align: center;
   margin-bottom: 20px;
 }
@@ -407,4 +482,38 @@ button a {
   border-radius: 10px;
   padding-left: 10px;
   gap: 10px;
+}
+
+/* ================= Footer ===========  */
+.Footer {
+  width: 1900px;
+  height: 326px;
+  background-color: #1a1a1a;
+  color: white;
+}
+.Footer .footer_container {
+  height: 188px;
+  width: 380px;
+  /* border: 2px solid red; */
+  text-align: center;
+
+  align-items: center;
+  justify-content: center;
+  padding: 69px 754px;
+}
+.Footer .footer_container .back {
+  font-size: 15px;
+  font-weight: 600;
+}
+.Footer .footer_container .icons {
+  width: 204px;
+  height: 30px;
+  display: flex;
+  font-size: 30px;
+  justify-content: space-between;
+  /* border: 2px solid red; */
+  margin: 0 auto;
+}
+.Footer .footer_container .rights {
+  margin-top: 44px;
 }
